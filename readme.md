@@ -1,6 +1,6 @@
-# Boilerplate for Meteor and ReactDOM
+# Boilerplate for Meteor and React
 
-A basic Meteor, React and auth setup.
+A Meteor, React and auth setup.
 
 It uses Meteor Version 1.6.1 and React Router 4 for routing.
 
