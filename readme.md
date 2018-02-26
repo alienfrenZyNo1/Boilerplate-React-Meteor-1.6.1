@@ -4,6 +4,7 @@ A Meteor, React and auth setup.
 
 It uses Meteor Version 1.6.1 and React Router 4 for routing.
 
+```
 "dependencies": {
   "@babel/runtime": "^7.0.0-beta.39",
   "babel-runtime": "^6.26.0",
@@ -16,6 +17,7 @@ It uses Meteor Version 1.6.1 and React Router 4 for routing.
   "react-router-dom": "^4.2.2",
   "simpl-schema": "^1.4.1"
 }
+```
 
 ## Credits:
 
