@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+// take base size from browser which is 16 and convert it to 10 (16*62.5%=10)
+html {
+  font-size: 62.5%
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: $base-font-size;
+}
+
+p {
+  margin-bottom: $space;
+}
+
+h1 {
+  font-weight: 300;
+  margin-bottom: $space;
+}
+
+h2 {
+  font-size: $large-font-size;
+  margin-bottom: $space;
+}
+
+a {
+  color: black;
+}
+
+// grab subset of inputs
+input[type=text], input[type=email], input[type=password] {
+  border: 1px solid $input-border;
+  font-size: $base-font-size;
+  margin-bottom: $space;
+  padding: $input-spacing;
+}

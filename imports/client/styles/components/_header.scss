@@ -1,0 +1,19 @@
+// Styles for private header
+
+.header {
+  background: $header-bg;
+  color: $header-color;
+}
+
+// styles for anything inside header
+.header__content {
+  display: flex;
+  justify-content: space-between; //places logout on right
+  max-width: $site-max-width;
+  margin: 0 auto;
+  padding: $space;
+}
+
+.header__title {
+  margin: 0;
+}

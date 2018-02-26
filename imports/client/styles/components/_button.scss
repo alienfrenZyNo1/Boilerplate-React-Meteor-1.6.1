@@ -1,0 +1,44 @@
+// buttons styles
+
+.button {
+  background-color: $button-bg;
+  border: none;
+  color: $button-color;
+  cursor: pointer;
+  font-size: $base-font-size;
+  line-height: 1.2;
+  margin-bottom: $space;
+  padding: $input-spacing;
+  text-transform: uppercase;
+}
+
+// modifier
+//by default 'a' tags are inline elements. This makes it a inline-block and also removes the underline decoration.
+.button--link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+// bordered button (pill)
+.button--pill {
+  background-color: transparent;
+  border: 1px solid $button-pill-color;
+  color: $button-pill-color;
+  margin: 0 ($space / 2) 0 0;
+  padding: .3rem .8rem;
+}
+
+.button--secondary {
+  background: $button-secondary-bg;
+  border: 1px solid $button-secondary-border-color;
+  color: $button-secondary-color;
+}
+
+.button--link-text {
+  background: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: underline;
+  text-transform: none;
+
+}
